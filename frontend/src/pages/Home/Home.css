@@ -1,0 +1,295 @@
+
+.Home_image {
+    position: relative;
+    height: 500px;
+    object-fit: cover;
+    width: 100%;
+    z-index: -1;
+  }
+  
+  .ant-card-body{
+      height: 220px;
+      
+      background-color:   #CAE9F5;
+  }
+  .Banner_Card{
+      width: auto;
+      position: absolute;
+      top: 30%;
+      left: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px -2px rgba(0, 0, 0, 0.3);
+      z-index: 1;
+  
+  }
+  .Banner_Card h1{
+      font-weight: 600;
+  
+  }
+  .Banner_Card p{
+      margin-top: 20px;
+      font-size: 16px;
+      
+  }
+  #discover_btn{
+      color: rgb(233, 231, 231);
+      border: none;
+      font-size: 16px;
+      background-color:  #fb800f;
+      width: 150px;
+      height: 40px;
+      border-radius:3px;
+  
+  }
+  .ant-tabs-ink-bar{
+      background: #fb800f !important;
+  }
+  .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn{
+      color: #fb800f !important;
+  }
+  #discover_btn:hover{
+      background-color: #233DFF !important;
+      box-shadow: 0 2px 8px -2px rgba(0, 0, 0, 0.3);
+  }
+  .Menu1{    
+      margin: 20px 0 ;
+      margin-left: 20px;
+      margin-right: 30px;
+      position: relative;
+      /* top: 500px; */
+  }
+  .Menu1 > h2{
+      font-weight: 700;
+  }
+  .Tab_Content{
+      display:grid;
+      width:100%;
+      border: 0.2px #c7c7c7 solid;
+  
+      box-shadow: 0 2px 8px -2px rgba(0, 0, 0, 0.2);
+      padding: 20px;
+      /* align-items: center; */
+  
+  
+  }
+  .ant-drawer-close {
+      color:  #fb800f !important;
+  }
+  .Tab_Content #paragraphbtn {
+          text-align: justify;
+      margin-bottom: 20px;
+          width:70%;
+  }
+  
+  .coursecards{
+    padding: 8px;
+    width: 100%;
+  }
+  .slick-list{
+      display:grid;
+      grid-template-columns: repeat(auto-fill,minmax(350px,1fr));
+      height: 400px;
+  }
+  
+  .coursecard{
+      width: 252px;
+      border: 1px #fffefd solid;
+  
+  }
+  
+  .slick-active{
+          margin: 0 10px;
+          margin-left: 20px;
+  }
+  .slick-prev::before,.slick-next::before{
+      font-size: 25px;
+      color: #000a13;
+      z-index: 8;
+      
+  }
+  .slick-prev{
+          z-index: 8;
+  }
+  .coursecard h3 {
+      width: 230px;
+      cursor: pointer;
+      position: absolute;
+      top: 170px;
+      right: 10px;
+      height: 50px;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      white-space: normal;
+      display: -webkit-box!important;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+  }
+  .coursecards h4{
+      position: absolute;
+      top: 230px;
+          font-size: 16px;
+      left: 10px;
+  }
+  .coursecard h5{
+      position: absolute;
+      top: 260px;
+      font-size: 15px;
+          left: 10px;
+  
+  }
+  .coursecards h4{
+      color: #5a5a5a;
+  }
+  .rating{
+  position: absolute;
+      bottom: 10px;
+      left: 10px;
+  }
+  #ReadMorebtn{
+      width: fit-content;
+      background-color :  #fb800f;
+      padding: 0px 10px;
+      color: #eeeded;
+      border-radius: 2px;
+  } 
+  #ReadMorebtn:hover{
+      background-color : #233DFF;
+  }
+  .ant-rate-star ,.ant-rate-star-full{
+      width:15px
+  }
+  .Courses_Popular{
+      margin-left: 30px;
+      margin-right: 30px;
+      position: relative;
+      /* top: 550px; */
+  }
+  .Courses_Popular h2{
+          font-weight: 700;
+  }
+  .Categorys_Popular{
+          /* text-align: center; */
+      /* margin-left: 30px;
+      margin-right: 30px; */
+      position: relative;
+      /* top: 550px; */
+          margin-bottom: 10%;
+  }
+  .Categorys_Popular h2{
+      font-weight: 700;
+      margin-left: 30px;
+      margin-right: 30px;
+  }
+  .Become_Teacher{
+      position: relative; 
+       /* top: 100px; */
+      
+      /* margin-bottom: 198px; */
+  
+  }
+  .background{
+      position: relative;
+      width: 100%;
+      height: 400px;
+      background-color: rgba(218, 218, 218, 0.2);
+      display: grid;
+      grid-template-columns: 50% 50%;
+  }
+  .Become_Teacher img{
+      margin: 30px 270px;
+      /* position: relative; */
+      object-fit: cover;
+      height: 400px;
+      justify-self: center;
+      width: 400px;
+      box-shadow: 0 2px 8px -2px rgba(0, 0, 0, 0.2);
+  }
+  .Become_Teacher h2{
+      font-size: 23px;
+  }
+  .Become_Teacher div{
+      /* justify-self: center; */
+      align-self: center;
+      z-index:8;
+  }
+  
+  /* .ant-card.ant-card-bordered{
+      cursor: pointer;
+  } */
+  .Become_Teacher p{
+      font-size: 16px;
+  }
+  
+  #Joinusbtn{
+      position: relative;
+      color: rgb(233, 231, 231);
+      border: none;
+      font-size: 16px;
+      background-color: #fb800f;
+      width: 150px;
+      height: 40px;
+      border-radius:3px;
+      cursor: pointer;
+  }
+  #Joinusbtn:hover{
+      background-color: #233DFF;
+  }
+  .ant-card-cover img{
+      transition: all 0.3s linear 0.3s;
+  
+  }
+  .ant-card-cover img:hover{
+      filter: rgb(92, 92, 92);
+      -webkit-filter: grayscale(70%);
+  }
+  .Categorycards{
+      /* margin : 0 20px; */
+      display: grid;
+      text-align: center;
+      row-gap: 20px;
+      grid-template-columns:repeat(auto-fill,minmax(300px,1fr));
+      border: 1px  #fb800f;
+  }
+  /* .ant-card-body{
+      height: fit-content;
+  } */
+  @media screen and (max-width:768px)   {
+      #paragraphbtn p{
+          padding-right: 30%;
+          width: fit-content;
+          /* height: 500px; */
+      }
+      .Become_Teacher img{
+                  margin-left: 10px;
+                  margin-right : 90px;
+          height: 300px;
+          width: 300px;
+      }
+      .Become_Teacher .paragraph{
+          /* grid-column:1/1; */
+          margin-left: 20px;
+      }
+      .Home_image{
+           object-position: 80%;
+  
+      }
+      .Banner_Card{
+      left: 5px;
+      width: 80%;
+      top: 26%;
+      }
+      .slick-list{
+          width:100%;
+          grid-template-columns: repeat(auto-fill,550px);
+      }
+      .Courses_Popular{
+      margin-left: 0;
+      margin-right: 0;
+  
+  }
+  .Courses_Popular h2{
+          margin-left: 20px;
+  }
+      
+  }
+  
